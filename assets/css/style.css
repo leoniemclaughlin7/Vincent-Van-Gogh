@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Hero image */
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url("../images/vincent-van-gogh-paintings-database.jpg") no-repeat center center;
+    background-size: 100% 100vh;
+    background-color: black;
+}
