@@ -1,7 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: none;
+}
+
+header {
+    background-color: #7ed0df;
+}
+
+h1 {
+    margin: 0px;
+}
+
+/* nav bar */
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 2px; 
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: 10px;
+    line-height: 0;
+}
+
+#nav-menu > li {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-top: -45px;
+    
+}
+
+#nav-menu a {
+    text-decoration: none;
+    margin: 0 20px; 
+    color: black;
+}
+
+/* logo */
+
+#logo {
+    font-family: 'Shadows Into Light', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 320%;
+    margin-left: 30px;
+
+
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Hero image */
@@ -12,4 +63,5 @@
     background: url("../images/vincent-van-gogh-paintings-database.jpg") no-repeat center center;
     background-size: 100% 100vh;
     background-color: black;
+    overflow: hidden;
 }
