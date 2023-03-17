@@ -66,5 +66,38 @@ a {
     overflow: hidden;
 }
 
+/* About section */
+
+#about {
+    background-color: black;
+}
+
+#about h2 {
+    color: #7ed0df;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Shadows Into Light', sans-serif;;
+}
+
+#about div {
+    color: black;
+    background-color: #7ed0df;
+    width: 50%;
+    height: 170px;
+    padding: 10px 10px 10px 10px;
+    border: 10px solid black;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 150%;
+    float: right;
+}
+
+
+
+
+
+
+
+
 /* TIMELINE */
 
