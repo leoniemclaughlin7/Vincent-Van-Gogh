@@ -105,11 +105,13 @@ a {
     position: relative;
     text-align: center;
     overflow: scroll;
+    width: auto;
+    max-width: 5100px;
   }
   .timeline:before {
     content: '';
     position: absolute;
-    width: 500%;
+    width: 100%;
     top: 50%;
     left: 5%;
     height: 26px;
@@ -120,7 +122,7 @@ a {
     width: 50px;
     height: 50px;
     position: relative;
-    margin: 0 20px;
+    margin: 0 100px;
     display: inline-block;
     background: #7ed0df;
     vertical-align: middle;
