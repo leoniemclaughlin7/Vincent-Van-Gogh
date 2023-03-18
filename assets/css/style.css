@@ -15,6 +15,13 @@ h1 {
     margin: 0px;
 }
 
+h2 {
+    color: #7ed0df;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Shadows Into Light', sans-serif;;
+}
+
 /* nav bar */
 
 #nav-menu {
@@ -75,13 +82,6 @@ a {
     justify-content: center;
 }
 
-#about h2 {
-    color: #7ed0df;
-    text-align: center;
-    font-size: 250%;
-    font-family: 'Shadows Into Light', sans-serif;;
-}
-
 .about-box {
     color: black;
     background-color: #7ed0df;
@@ -96,12 +96,63 @@ a {
     
 }
 
-
-
-
-
-
-
-
 /* TIMELINE */
+
+.timeline {
+    height: 250px;
+    margin: 1em;
+    line-height: 250px;
+    position: relative;
+    text-align: center;
+    overflow: scroll;
+  }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    width: 500%;
+    top: 50%;
+    left: 5%;
+    height: 26px;
+    margin-top: -13px;
+    background: white;
+  }
+  .event {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 20px;
+    display: inline-block;
+    background: #7ed0df;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  .detail {
+    position: absolute;
+    line-height: 1em;
+    white-space: nowrap;
+    left: 100%;
+    color: white;
+    font-size: smaller;
+  }
+  .event:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    width: 6px;
+    background: yellow;
+    height: 50px;
+  }
+  .event.up:before {
+    top: -100%;
+  }
+  .event.down:before {
+    top: 100%;
+  }
+  .up .detail {
+    top: -50px;
+  }
+  .down .detail {
+    bottom: -50px;
+  }
 
