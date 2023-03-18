@@ -6,8 +6,8 @@
     border: none;
 }
 
-header {
-    background-color: #7ed0df;
+body {
+    background-color: black;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 #nav-menu a {
     text-decoration: none;
     margin: 0 20px; 
-    color: black;
+    color: #7ed0df;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -44,11 +44,9 @@ h1 {
     font-family: 'Shadows Into Light', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: black;
+    color: #7ed0df;
     font-size: 320%;
     margin-left: 30px;
-
-
 }
 
 a {
@@ -68,10 +66,6 @@ a {
 
 /* About section */
 
-#about {
-    background-color: black;
-}
-
 #about h2 {
     color: #7ed0df;
     text-align: center;
@@ -79,24 +73,18 @@ a {
     font-family: 'Shadows Into Light', sans-serif;;
 }
 
-#about div {
+.about-box {
     color: black;
     background-color: #7ed0df;
-    width: 50%;
-    height: 170px;
     padding: 10px 10px 10px 10px;
-    border: 10px solid black;
+    margin: 10px;
     text-align: justify;
-    box-sizing: border-box;
-    font-size: 150%;
+    font-size: 145%;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
     float: right;
+    width: 47%;
 }
-
-
-
-
-
-
 
 
 /* TIMELINE */
