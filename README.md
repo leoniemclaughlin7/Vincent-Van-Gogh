@@ -4,3 +4,8 @@ Welcome Leonie McLaughlin,
 
 * Hero image
 https://supergreeks.eu/vincent-van-gogh-olllandia/ 
+
+* resources
+
+help with flexbox
+https://www.youtube.com/watch?v=Q1d-1FzdXEE 
