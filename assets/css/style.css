@@ -106,55 +106,88 @@ a {
     text-align: center;
     overflow: scroll;
     width: auto;
-    max-width: 5100px;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
   }
-  .timeline:before {
+  .timeline::before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 425%;
     top: 50%;
     left: 5%;
     height: 26px;
     margin-top: -13px;
-    background: white;
+    background: bisque;
+    
   }
+
   .event {
     width: 50px;
     height: 50px;
     position: relative;
-    margin: 0 100px;
-    display: inline-block;
-    background: #7ed0df;
+    margin: 0 150px;
     vertical-align: middle;
-    border-radius: 50%;
   }
+
   .detail {
-    position: absolute;
+    position: relative;
     line-height: 1em;
     white-space: nowrap;
     left: 100%;
     color: white;
-    font-size: smaller;
+    font-size: larger;
   }
-  .event:before {
+
+  .event::before {
     content: '';
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    width: 6px;
+    width: 3px;
     background: yellow;
-    height: 50px;
-  }
-  .event.up:before {
-    top: -100%;
-  }
-  .event.down:before {
-    top: 100%;
-  }
-  .up .detail {
-    top: -50px;
-  }
-  .down .detail {
-    bottom: -50px;
+    height: 55px;
   }
 
+  .event.up::before {
+    top: 100%;
+  }
+
+  .event.down::before {
+    top: -100%;
+  }
+ 
+  .down .detail {
+    top: -50%;
+  }
+
+  .up .detail {
+    bottom: -70%;
+  }
+
+  .down {
+    top:75%
+  }
+
+  /* positioning the divs */ 
+
+#div1 { grid-area: 1 / 1 / 2 / 2; }
+#div2 { grid-area: 1 / 2 / 2 / 3; }
+#div3 { grid-area: 1 / 3 / 2 / 4; }
+#div4 { grid-area: 1 / 4 / 2 / 5; }
+#div5 { grid-area: 1 / 5 / 2 / 6; }
+#div6 { grid-area: 1 / 6 / 2 / 7; }
+#div7 { grid-area: 1 / 7 / 2 / 8; }
+#div8 { grid-area: 1 / 8 / 2 / 9; }
+#div9 { grid-area: 1 / 9 / 2 / 10; }
+#div10 { grid-area: 1 / 10 / 2 / 11; }
+#div11 { grid-area: 1 / 11 / 2 / 12; }
+#div12 { grid-area: 1 / 12 / 2 / 13; }
+#div13 { grid-area: 1 / 13 / 2 / 14; }
+#div14 { grid-area: 1 / 14 / 2 / 15; }
+#div15 { grid-area: 1 / 15 / 2 / 16; }
+#div16 { grid-area: 1 / 16 / 2 / 17; }
+#div17 { grid-area: 1 / 17 / 2 / 18; }
