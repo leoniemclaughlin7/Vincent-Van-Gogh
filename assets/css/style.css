@@ -202,5 +202,15 @@ a {
   display: flex;
   align-content: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
+/* footer */
+
+footer {
+  background-color: #0E3C45;
+  color: #7ed0df;
+  height: 75px;
+  text-align: center;
+  padding-top: 20px;
+}
