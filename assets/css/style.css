@@ -1,200 +1,240 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Shadows+Into+Light&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-/* body {
-    background-color: white;
-} */
-
-
 h1 {
-    margin: 0px;
+  margin: 0px;
 }
 
 h2 {
-    color: #0E3C45;
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Shadows Into Light', sans-serif;;
+  color: #0E3C45;
+  text-align: center;
+  font-size: 300%;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 
 /* nav bar */
 
-header  {
+header {
   background-color: #0E3C45;
 }
 
 #nav-menu {
-    font-size: 110%;
-    letter-spacing: 2px; 
-    display: flex; 
-    justify-content: flex-end;
-    margin-top: 10px;
-    line-height: 0;
-
+  font-size: 110%;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  line-height: 0;
 }
 
-#nav-menu > li {
-    list-style-type: none;
-    margin: -45px 0 40px 10px;
-    
+#nav-menu>li {
+  list-style-type: none;
+  margin: -45px 0 40px 10px;
 }
 
 #nav-menu a {
-    text-decoration: none;
-    margin: 0 20px; 
-    color: #7ed0df;
-    font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  margin: 0 20px;
+  color: #7ed0df;
+  font-family: 'Kanit', sans-serif;
 }
 
 /* logo */
 
 #logo {
-    font-family: 'Shadows Into Light', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #7ed0df;
-    font-size: 320%;
-    margin-left: 30px;
-
-
+  font-family: 'Shadows Into Light', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #7ed0df;
+  font-size: 320%;
+  margin-left: 30px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Hero image */
 
 #hero-image {
-    height: 500px;
-    width: 100%;
-    background: url("../images/vincent-van-gogh-paintings-database.jpg") no-repeat center center;
-    background-size: 100% 100vh;
-    background-color: black;
-    overflow: hidden;
+  height: 500px;
+  width: 100%;
+  background: url("../images/vincent-van-gogh-paintings-database.jpg") no-repeat center center;
+  background-size: 100% 100vh;
+  background-color: black;
+  overflow: hidden;
 }
 
 /* About section */
 
 #about-position {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .about-box {
-    color: black;
-    background-color: #7ed0df;
-    padding: 10px 10px 10px 10px;
-    margin: 10px;
-    text-align: justify;
-    font-size: 145%;
-    font-family: 'Kanit', sans-serif;
-    border-radius: 10px;
-    align-items: center;
-    width: 100%;
-    
+  color: black;
+  background-color: #7ed0df;
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  text-align: justify;
+  font-size: 145%;
+  font-family: 'Kanit', sans-serif;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
 }
 
 /* TIMELINE */
 
 .timeline {
-    height: 250px;
-    margin: 1em;
-    line-height: 250px;
-    position: relative;
-    text-align: center;
-    overflow: scroll;
-    width: auto;
-    display: grid;
-    grid-template-columns: repeat(17, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+  height: 250px;
+  margin: 1em;
+  line-height: 250px;
+  position: relative;
+  text-align: center;
+  overflow: scroll;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 
-  }
-  .timeline::before {
-    content: '';
-    position: absolute;
-    width: 425%;
-    top: 50%;
-    left: 5%;
-    height: 26px;
-    margin-top: -13px;
-    background: #0E3C45;    
-  }
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 425%;
+  top: 50%;
+  left: 5%;
+  height: 26px;
+  margin-top: -13px;
+  background: #0E3C45;
+}
 
-  .event {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    margin: 0 150px;
-    vertical-align: middle;
-  }
+.event {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 0 150px;
+  vertical-align: middle;
+}
 
-  .detail {
-    position: relative;
-    line-height: 1em;
-    white-space: nowrap;
-    left: 100%;
-    color: black;
-    font-size: larger;
-  }
+.detail {
+  position: relative;
+  line-height: 1em;
+  white-space: nowrap;
+  left: 100%;
+  color: black;
+  font-size: larger;
+}
 
-  .event::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    width: 3px;
-    background: #0E3C45;
-    height: 55px;
-  }
+.event::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  width: 3px;
+  background: #0E3C45;
+  height: 55px;
+}
 
-  .event.up::before {
-    top: 100%;
-  }
+.event.up::before {
+  top: 100%;
+}
 
-  .event.down::before {
-    top: -100%;
-  }
- 
-  .down .detail {
-    top: -50%;
-  }
+.event.down::before {
+  top: -100%;
+}
 
-  .up .detail {
-    bottom: -70%;
-  }
+.down .detail {
+  top: -50%;
+}
 
-  .down {
-    top:75%
-  }
+.up .detail {
+  bottom: -70%;
+}
 
-  /* positioning the divs */ 
+.down {
+  top: 75%
+}
 
-#div1 { grid-area: 1 / 1 / 2 / 2; }
-#div2 { grid-area: 1 / 2 / 2 / 3; }
-#div3 { grid-area: 1 / 3 / 2 / 4; }
-#div4 { grid-area: 1 / 4 / 2 / 5; }
-#div5 { grid-area: 1 / 5 / 2 / 6; }
-#div6 { grid-area: 1 / 6 / 2 / 7; }
-#div7 { grid-area: 1 / 7 / 2 / 8; }
-#div8 { grid-area: 1 / 8 / 2 / 9; }
-#div9 { grid-area: 1 / 9 / 2 / 10; }
-#div10 { grid-area: 1 / 10 / 2 / 11; }
-#div11 { grid-area: 1 / 11 / 2 / 12; }
-#div12 { grid-area: 1 / 12 / 2 / 13; }
-#div13 { grid-area: 1 / 13 / 2 / 14; }
-#div14 { grid-area: 1 / 14 / 2 / 15; }
-#div15 { grid-area: 1 / 15 / 2 / 16; }
-#div16 { grid-area: 1 / 16 / 2 / 17; }
-#div17 { grid-area: 1 / 17 / 2 / 18; }
+/* positioning the divs */
+
+#div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+#div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+#div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+#div5 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+#div6 {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+#div7 {
+  grid-area: 1 / 7 / 2 / 8;
+}
+
+#div8 {
+  grid-area: 1 / 8 / 2 / 9;
+}
+
+#div9 {
+  grid-area: 1 / 9 / 2 / 10;
+}
+
+#div10 {
+  grid-area: 1 / 10 / 2 / 11;
+}
+
+#div11 {
+  grid-area: 1 / 11 / 2 / 12;
+}
+
+#div12 {
+  grid-area: 1 / 12 / 2 / 13;
+}
+
+#div13 {
+  grid-area: 1 / 13 / 2 / 14;
+}
+
+#div14 {
+  grid-area: 1 / 14 / 2 / 15;
+}
+
+#div15 {
+  grid-area: 1 / 15 / 2 / 16;
+}
+
+#div16 {
+  grid-area: 1 / 16 / 2 / 17;
+}
+
+#div17 {
+  grid-area: 1 / 17 / 2 / 18;
+}
 
 /* video */
 
@@ -214,14 +254,14 @@ footer {
   text-align: center;
   padding-top: 20px;
   width: 100%;
-  
+
 }
 
 /* gallery */
 
 .paintings img {
   padding: 20px;
-  width:  335px;
+  width: 335px;
   height: 335px;
   object-fit: cover;
 }
