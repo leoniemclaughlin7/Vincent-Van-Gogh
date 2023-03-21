@@ -221,3 +221,9 @@ footer {
 
 /* gallery */
 
+.pictures img {
+  padding: 20px 20px 20px 20px;
+  width:  335px;
+  height: 335px;
+  object-fit: cover;
+}
