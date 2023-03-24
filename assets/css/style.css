@@ -17,10 +17,19 @@ h2 {
   font-family: 'Shadows Into Light', sans-serif;
 }
 
+body {
+  padding-top: 90px; 
+}
+
 /* nav bar */
 
 header {
   background-color: #0E3C45;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 #nav-menu {
@@ -62,7 +71,7 @@ a {
 /* Hero image */
 
 #hero-image {
-  height: 500px;
+  height: 600px;
   width: 100%;
   background: url("../images/vincent-van-gogh-paintings-database.jpg") no-repeat center center;
   background-size: cover;
@@ -244,6 +253,7 @@ a {
   align-content: center;
   justify-content: center;
   margin-bottom: 50px;
+  z-index: 3;
 }
 
 /* footer */
