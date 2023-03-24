@@ -30,7 +30,7 @@ header {
   left: 0;
   width: 100%;
   overflow: hidden;
-  z-index: 1;
+  z-index: 3;
 }
 
 #nav-menu {
@@ -117,7 +117,7 @@ a {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 .timeline::before {
@@ -255,7 +255,7 @@ a {
   align-content: center;
   justify-content: center;
   margin-bottom: 50px;
-  z-index: -1;
+  z-index: 1;
 }
 
 /* footer */
@@ -291,7 +291,7 @@ footer {
 
 #form {
   background: url(../images/blossom-tree.webp) no-repeat;
-  height: 500px;
+  height: 475px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -318,7 +318,6 @@ footer {
   justify-content: center;
   margin: 0 auto;
   border: 2px solid #0E3C45;
-  background: transparent;
 }
 
 #sign-up-button {
