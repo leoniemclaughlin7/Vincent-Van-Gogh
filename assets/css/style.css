@@ -281,3 +281,8 @@ footer {
   height: 335px;
   object-fit: cover;
 }
+
+.paintings img:hover {
+  filter: drop-shadow(0.60em 0.60em 0.2em);
+  transform: scale(1.1);
+}
