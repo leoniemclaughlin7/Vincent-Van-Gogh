@@ -286,3 +286,12 @@ footer {
   filter: drop-shadow(0.60em 0.60em 0.2em);
   transform: scale(1.1);
 }
+
+/* sign up form */
+
+#form {
+  background: url(../images/blossom-tree.webp) no-repeat;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
