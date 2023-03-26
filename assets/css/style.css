@@ -18,7 +18,7 @@ h2 {
 }
 
 body {
-  padding-top: 90px; 
+  padding-top: 90px;
 }
 
 /* nav bar */
@@ -92,7 +92,7 @@ a {
   color: black;
   background-color: #7ed0df;
   padding: 10px;
-  margin: 10px; 
+  margin: 10px;
   text-align: justify;
   font-size: 145%;
   font-family: 'Kanit', sans-serif;
@@ -340,10 +340,10 @@ footer {
 
 /* for screen size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
-  
-  .timeline::before{
+
+  .timeline::before {
     width: 450%;
-    
+
   }
 
   .event::before {
@@ -358,7 +358,7 @@ footer {
 /* for screen size from 1024px wide and down */
 @media screen and (max-width: 1024px) {
 
-  .timeline::before{
+  .timeline::before {
     width: 625%;
 
   }
@@ -367,4 +367,16 @@ footer {
     height: 450px;
   }
 
-} 
+}
+
+/* for screen size from 768px wide and down */
+@media screen and (max-width: 768px) {
+
+  #nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    padding: 30px 0 0 0;
+  }
+
+}
