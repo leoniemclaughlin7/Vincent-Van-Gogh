@@ -388,11 +388,11 @@ footer {
   }
 
   body{
-    padding-top: 150px;
+    padding-top: 140px;
   }
 }
 
-/* for screen size from 453px wide and down */
+/* for screen size from 589px wide and down */
 @media screen and (max-width: 589px) {
  
   #nav-menu {
@@ -410,13 +410,19 @@ footer {
   }
 
   body {
-    padding-top: 200px;
+    padding-top: 220px;
   }
 }
 
+/* for screen size from 487px wide and down */
+@media screen and (max-width: 487px) {
+  body {
+    padding-top: 300px;
+  }
+}
 
-/* When the width is between 600px and 900px */
-@media screen and (max-width: 1442px) and (min-width: 878px) {
+/* for screen size from 1442px wide and down */
+@media screen and (max-width: 1442px) {
   #sign-up-box {
     font-size: 100%;
     width: 60%;
@@ -424,21 +430,39 @@ footer {
 
 }
 
-/* When the width is between 600px and 900px */
-@media screen and (max-width: 768px) and (min-width: 320px) {
+/* for screen size from 878px wide and down */
+@media screen and (max-width: 878px) {
   #sign-up-box {
-    font-size: 75%;
-    width: 100%;
-    padding-top: 20px;
-    height: 450px;
+    font-size: 100%;
+    width: 60%;
+    padding-top: 10px;
+    height: 470px;
   }
-
 
 }
 
+/* for screen size from 714px wide and down */
+@media screen and (max-width: 714px) {
+  #sign-up-box {
+    font-size: 100%;
+    width: 70%;
+    padding-top: 10px;
+    height: 480px;
+  }
+}
 
-/* When the width is between 600px and 900px */
-@media screen and (max-width: 488px) and (min-width: 320px) {
+/* for screen size from 560px wide and down */
+@media screen and (max-width: 560px) {
+  #sign-up-box {
+    font-size: 100%;
+    width: 90%;
+  }
+  
+}
+
+
+/* When the width is between 320px and 400px */
+@media screen and (max-width: 450px) and (min-width: 320px) {
   #logo {
     font-size: 250%;
     padding: 0 0 20px 0;
@@ -446,7 +470,7 @@ footer {
   }
 
   body {
-    padding-top: 270px;
+    padding-top: 200px;
   }
 
   .paintings img {
@@ -454,4 +478,29 @@ footer {
     height: 250px;
   }
 
+  
+.about-box {
+  font-size: 100%;
+}
+
+.timeline::before {
+  
+  width: 2200%;
+ 
+}
+
+#sign-up-box {
+  font-size: 75%;
+  width: 100%;
+  height: 450px;
+}
+
+}
+
+/* for screen size from 400px wide and down */
+@media screen and (max-width: 400px) {
+  body {
+    padding-top: 270px;
+  }
+  
 }
