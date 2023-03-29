@@ -54,6 +54,10 @@ header {
   font-family: 'Kanit', sans-serif;
 }
 
+.clicked {
+  border: 1px solid #7ed0df;
+}
+
 /* logo */
 
 #logo {
