@@ -6,12 +6,24 @@ A live version of the project can be accessed here: [Vincent Van Gogh](https://l
 
 <img src="assets/images/readme-images/van-gogh-mockups.png">
 
+# Table Of Contents
+
+# User Experience Design
+
+## User Demographic
+
+This website is intended for:
+
+* Users that have a keen intrest in Vincent Van Gogh.
+* Users that would like to find out more information on Vincent Van Gogh.
+* Users that wish to become part of a community who appreciate the work of Vincent Van Gogh. 
 
 
-* Hero image
+# Credits
+Hero image
 https://supergreeks.eu/vincent-van-gogh-olllandia/ 
 
-* resources
+resources
 
 help with flexbox
 https://www.youtube.com/watch?v=Q1d-1FzdXEE 
