@@ -343,6 +343,13 @@ footer {
   border-color: #7ed0df;
 }
 
+#thank-you {
+  margin: 0;
+  height: 75vh;
+  display: grid;             
+  place-items: center;
+}
+
 /* Media queries */ 
 
 /* for screen size from 1440px wide and down */
