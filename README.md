@@ -18,6 +18,46 @@ This website is intended for:
 * Users that would like to find out more information on Vincent Van Gogh.
 * Users that wish to become part of a community who appreciate the work of Vincent Van Gogh. 
 
+## User Stories
+
+As a User of this website:
+
+* I want to find information about Vincent Van Gogh.
+* I want to admire some of the work carried out by vincent Van Gogh. 
+* I want to be able to obtain additional information surrounding Vincent Van Gogh. 
+* I want to join a collective community of Vincent Van Gogh lovers.
+
+# Features 
+
+The Vincent Van Gogh website contains three main pages, which can be navagated too via a navigation bar that is fixed to the top of the page as the user scrolls. Each page contains a header with the navagation bar and a footer. The three main pages in this design are:
+
+* Home/about section.
+* Gallery.
+* Sign up page. 
+
+## Existing Features
+
+### Header and Navigation Bar 
+
+* Featured on all three pages, the header contains a clickable logo, that will return the user to the home page and a responsive navigation menu. 
+* The navigation menu allows the user to move around the website and includes links to Home, About, Gallery and Sign up pages. A border can be seen on the page that the user is currently on. 
+* The header is identical across all three pages which enhances usability and consistency.
+
+<img src="assets/images/readme-images/header.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Credits
 Hero image
