@@ -1,4 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vincent Van Gogh
+
+<img src="assets/images/readme-images/van-gogh-mockups.png">
+
 
 Welcome Leonie McLaughlin,
 
