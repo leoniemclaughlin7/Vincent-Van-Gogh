@@ -39,22 +39,30 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 ### Header and Navigation Bar 
 
-* Featured on all three pages, the header contains a clickable logo, that will return the user to the home page and a responsive navigation menu. 
-* The navigation menu allows the user to move around the website and includes links to Home, About, Gallery and Sign up pages. A border can be seen on the page that the user is currently on. 
+* Featured on all three pages, the header contains a clickable logo, that will return the user to the home page and a responsive navigation bar. 
+* The navigation bar allows the user to move around the website and includes links to Home, About, Gallery and Sign up pages. A border can be seen on the page that the user is currently on. 
 * The header is identical across all three pages which enhances usability and consistency.
 
 <img src="assets/images/readme-images/header.png">
 
+### Hero Image 
 
+* The landing page contains a hero image, this is a picture of Vincent Van Gogh with some of his most famous work in the background.
+* This image was choosen as it represents what this website is about. The colour scheme for the website was also derived from this hero image. 
 
+<img src="assets/images/readme-images/hero-image.png">
 
+### About Section
 
+* The about section contains vital information for the user about the artists life and work. In order to display the information but keep it minimal, the information is displayed in two responsive boxes that fit with the colour scheme. 
 
+<img src="assets/images/readme-images/about.png">
 
+### Artist Timeline
 
+* The artist timeline is a responsive scrollable horizontal feature that gives the user more information releating to Vincent Van Gogh's life and events that happens in his life.
 
-
-
+<img src="assets/images/readme-images/artist-timeline.png">
 
 
 
