@@ -45,24 +45,40 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 <img src="assets/images/readme-images/header.png">
 
-### Hero Image 
-
-* The landing page contains a hero image, this is a picture of Vincent Van Gogh with some of his most famous work in the background.
-* This image was choosen as it represents what this website is about. The colour scheme for the website was also derived from this hero image. 
-
-<img src="assets/images/readme-images/hero-image.png">
-
 ### About Section
 
-* The about section contains vital information for the user about the artists life and work. In order to display the information but keep it minimal, the information is displayed in two responsive boxes that fit with the colour scheme. 
+* The about section contains vital information for the user about the artists life and work. It is comprised of three sections to include a general about section, artist timeline and a video containing more information for the user.  
+* In order to display the information but keep it minimal, the first part of the about section is displayed in two responsive boxes that fit with the colour scheme. 
 
 <img src="assets/images/readme-images/about.png">
 
-### Artist Timeline
+#### Artist Timeline
 
 * The artist timeline is a responsive scrollable horizontal feature that gives the user more information releating to Vincent Van Gogh's life and events that happens in his life.
 
 <img src="assets/images/readme-images/artist-timeline.png">
+
+#### Video
+
+* The final section of the about section includes a video. This video gives the user more detail about Vincent Van Gogh, his life and work. 
+* This video will not autoplay, instead it is up to the user to decide to play the video. It is appropriate to the website and is informative for users. 
+
+<img src="assets/images/readme-images/video.png">
+
+### Gallery 
+
+* The gallery is an important aspect of this website. It is within this section that some of Vincents Van Gogh's paintings are displayed to the user.
+* There is three distinct categories of paintings available to view, self-portraits, landscapes and flowers. When hovered over the paitings enlarge slightly and a drop shadow can be seen. 
+
+<img src="assets/images/readme-images/gallery.png">
+
+
+### Sign Up 
+
+* The sign up page allows users to sign up to a newsletter that will supply them with more information regarding Vincent Van Gogh. 
+* The sign up page is comprised of three input feilds and a checkbox, it contains form validation, in that either of the text feilds must not be empty. The email feild must contain an email and the checkbox must be checked before the form is submitted. 
+
+<img src="assets/images/readme-images/sign-up.png">
 
 
 
