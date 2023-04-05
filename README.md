@@ -80,6 +80,23 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 <img src="assets/images/readme-images/sign-up.png">
 
+### Form Submission Page
+
+* When the user submits the sign up form they are redirected to a thank you page. 
+* This gives an indication to the user that their form has been recieved and that they have signed up for the newsletter.
+
+<img src="assets/images/readme-images/form-submission.png">
+
+## Features Left to Implement 
+
+* A user profile could be implemented to allow the user to sign in to the website.
+* It would be nice to add a feature that allows the user to favorite a painting.
+* The addition of adding and viewing reviews of the paintings would be a nice feature to add.
+* More of the work carried out by Vincent van Gogh could be added to the gallery. 
+
+[Back to top](#vincent-van-gogh)
+
+# Deployment 
 
 
 
