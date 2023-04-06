@@ -96,6 +96,20 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 [Back to top](#vincent-van-gogh)
 
+# Testing 
+
+Testing of the functionality of the website can be seen in the following tables. Each section of the website has been tested according to the feature and testing different devices and screen resolutions has been conducted using Google DevTools. 
+
+## Navigation Bar 
+
+|Feature  | Expect  | Action | Result | 
+|--|--|--|--|
+| Logo  | When the logo is clicked it will return the user to the home page. |Clicked logo | pass
+| Home nav button| When clicked it will direct the user to the home page. |Clicked Home on the nav bar | pass
+|About nav button| When clicked it will direct the user to the about section. |Clicked About on the nav bar | pass
+|Gallery nav button| When clicked it will direct the user to the gallery page. |Clicked Gallery on the nav bar | pass
+| Sign up nav button| When clicked it will direct the user to the sign up page. |Clicked Sign up on the nav bar | pass
+
 # Deployment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
