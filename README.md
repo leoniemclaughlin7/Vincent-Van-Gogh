@@ -136,6 +136,14 @@ Testing of the functionality of the website can be seen in the following tables.
 |Gallery hover effect |When a painting is hovered over with the mouse it should enlarge and a drop shadow should be seen|Hovered over paintings | pass
 |Gallery is responsive |When the screen size is changed the paintings in the gallery  center and move to fit screen size|Resized browser and checked the gallery at different screen resolutions | pass
 
+## Sign Up 
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+|Sign up form validation |Error messages will appear if the form is submitted without all fields filled, a correct email and the checkbox checked |Submit form without any input | pass
+|Sign up form submit button |Form submits when the submit button is clicked|Clicked the submit button on the form | pass
+|Sign up form responsive |Form should be responsive on all screen sizes | Resized browser and checked form on different screen resolutions |pass
+
 # Deployment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
