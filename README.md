@@ -129,6 +129,13 @@ Testing of the functionality of the website can be seen in the following tables.
 |Video |The video does not auto play |Refreshed browser and confirm that the video does not play without action for the user| pass
 |Video is responsive |The video will be 70% of the page on all screen sizes |Resized the browser and checked the video is responsive on all screen sizes| pass
 
+## Gallery 
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+|Gallery hover effect |When a painting is hovered over with the mouse it should enlarge and a drop shadow should be seen|Hovered over paintings | pass
+|Gallery is responsive |When the screen size is changed the paintings in the gallery  center and move to fit screen size|Resized browser and checked the gallery at different screen resolutions | pass
+
 # Deployment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
