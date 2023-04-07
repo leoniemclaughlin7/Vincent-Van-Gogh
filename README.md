@@ -118,6 +118,17 @@ Testing of the functionality of the website can be seen in the following tables.
 |--|--|--|--|
 |Hero image responsive |When the screen size is changed the image does not distort and fits to screen|Resized browser and checked hero image at different screen resolutions | pass
 
+## About Section 
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+|About boxes responsive |When the screen size is changed the about boxes fit to screen size|Resized browser and checked about boxes at different screen resolutions | pass
+|About boxes responsive at 449px and below |When the screen size is changed  to 449px and below the about boxes font size changes to 100%|Resized browser to 449px and checked the font size of about boxes| pass
+|Timeline |The timeline is scrollable |Scroll to end of the timeline| pass
+|Timeline is responsive|The timeline is responsive on all screen sizes |Resize browser and checked timeline is responsive of different screen sizes| pass
+|Video |The video does not auto play |Refreshed browser and confirm that the video does not play without action for the user| pass
+|Video is responsive |The video will be 70% of the page on all screen sizes |Resized the browser and checked the video is responsive on all screen sizes| pass
+
 # Deployment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
