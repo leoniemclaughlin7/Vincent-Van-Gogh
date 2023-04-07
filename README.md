@@ -104,11 +104,19 @@ Testing of the functionality of the website can be seen in the following tables.
 
 |Feature  | Expect  | Action | Result | 
 |--|--|--|--|
-| Logo  | When the logo is clicked it will return the user to the home page. |Clicked logo | pass
-| Home nav button| When clicked it will direct the user to the home page. |Clicked Home on the nav bar | pass
-|About nav button| When clicked it will direct the user to the about section. |Clicked About on the nav bar | pass
-|Gallery nav button| When clicked it will direct the user to the gallery page. |Clicked Gallery on the nav bar | pass
-| Sign up nav button| When clicked it will direct the user to the sign up page. |Clicked Sign up on the nav bar | pass
+| Logo  | When the logo is clicked it will return the user to the home page |Clicked logo | pass
+| Home nav button| When clicked it will direct the user to the home page |Clicked Home on the nav bar | pass
+|About nav button| When clicked it will direct the user to the about section |Clicked About on the nav bar | pass
+|Gallery nav button| When clicked it will direct the user to the gallery page |Clicked Gallery on the nav bar | pass
+| Sign up nav button| When clicked it will direct the user to the sign up page |Clicked Sign up on the nav bar | pass
+|Nav menu responsive at 909px|When browser is resized to 909px or below the nav menu will relocate to under the logo |Resized browser to 909px | pass
+|Nav menu responsive at 588px|When browser is resized to 588px or below the nav menu will stack under the logo |Resized browser to 588px | pass
+
+## Hero Image 
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+|Hero image responsive |When the screen size is changed the image does not distort and fits to screen|Resized browser and checked hero image at different screen resolutions | pass
 
 # Deployment 
 
