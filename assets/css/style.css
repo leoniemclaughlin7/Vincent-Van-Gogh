@@ -54,7 +54,7 @@ header {
   font-family: 'Kanit', sans-serif;
 }
 
-.clicked {
+#nav-menu a:hover {
   border: 1px solid #7ed0df;
 }
 
