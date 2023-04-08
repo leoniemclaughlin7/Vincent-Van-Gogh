@@ -100,7 +100,7 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 Testing of the functionality of the website can be seen in the following tables. Each section of the website has been tested according to the feature and testing different devices and screen resolutions has been conducted using Google DevTools. 
 
-## Navigation Bar 
+### Navigation Bar 
 
 |Feature  | Expect  | Action | Result | 
 |--|--|--|--|
@@ -112,13 +112,13 @@ Testing of the functionality of the website can be seen in the following tables.
 |Nav menu responsive at 909px|When browser is resized to 909px or below the nav menu will relocate to under the logo |Resized browser to 909px | pass
 |Nav menu responsive at 588px|When browser is resized to 588px or below the nav menu will stack under the logo |Resized browser to 588px | pass
 
-## Hero Image 
+### Hero Image 
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 |Hero image responsive |When the screen size is changed the image does not distort and fits to screen|Resized browser and checked hero image at different screen resolutions | pass
 
-## About Section 
+### About Section 
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
@@ -129,20 +129,37 @@ Testing of the functionality of the website can be seen in the following tables.
 |Video |The video does not auto play |Refreshed browser and confirm that the video does not play without action for the user| pass
 |Video is responsive |The video will be 70% of the page on all screen sizes |Resized the browser and checked the video is responsive on all screen sizes| pass
 
-## Gallery 
+### Gallery 
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 |Gallery hover effect |When a painting is hovered over with the mouse it should enlarge and a drop shadow should be seen|Hovered over paintings | pass
 |Gallery is responsive |When the screen size is changed the paintings in the gallery  center and move to fit screen size|Resized browser and checked the gallery at different screen resolutions | pass
 
-## Sign Up 
+### Sign Up 
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 |Sign up form validation |Error messages will appear if the form is submitted without all fields filled, a correct email and the checkbox checked |Submit form without any input | pass
 |Sign up form submit button |Form submits when the submit button is clicked|Clicked the submit button on the form | pass
 |Sign up form responsive |Form should be responsive on all screen sizes | Resized browser and checked form on different screen resolutions |pass
+
+## Validator Testing
+
+### HTML 
+
+No errors were returned when site was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F)
+
+<img src="assets/images/readme-images/w3c-validator.png">
+
+### CSS 
+
+No errors were returned when the site was passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+<img src="assets/images/readme-images/jigsaw-validator.png">
+
+
+
 
 # Deployment 
 
