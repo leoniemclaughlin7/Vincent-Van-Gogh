@@ -158,7 +158,9 @@ No errors were returned when the site was passed through the official [Jigsaw va
 
 <img src="assets/images/readme-images/jigsaw-validator.png">
 
+### Lighthouse Testing
 
+<img src="assets/images/readme-images/lighthouse.png">
 
 
 # Deployment 
