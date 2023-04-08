@@ -24,8 +24,19 @@ As a User of this website:
 
 * I want to find information about Vincent Van Gogh.
 * I want to admire some of the work carried out by vincent Van Gogh. 
-* I want to be able to obtain additional information surrounding Vincent Van Gogh. 
-* I want to join a collective community of Vincent Van Gogh lovers.
+* I want to sign up to a newsletter to obtain more information about Vincent Van Gogh. 
+
+## Wireframes
+
+Wireframes were produced for the home screen on desktop and mobile. Some aspects of the wireframe has canged as the website was being produced. 
+
+### Desktop 
+
+<img src="assets/images/readme-images/wireframe1.png">
+
+### Mobile 
+
+<img src="assets/images/readme-images/wireframe2.png">
 
 # Features 
 
