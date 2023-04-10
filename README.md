@@ -38,6 +38,20 @@ Wireframes were produced for the home screen on desktop and mobile. Some aspects
 
 <img src="assets/images/readme-images/wireframe2.png">
 
+## Design
+
+The objective of this project was to design a website that is easy to use and that has a clean layout whilst also sticking to the theme of the site. 
+
+### Colours
+
+The colour palette for this Vincent Van Gogh website was derived from the hero image. The hero image is a painting of Vincent Van Gogh with some of his iconic paitinings in the background. The main colours that were used where white, black and varying shades of blue. A colour gradient was created using [Coolors.](https://coolors.co/gradient-palette/0e3c45-7ed0df?number=7)
+
+<img src="assets/images/readme-images/coolors.png">
+
+### Typography 
+
+The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the astetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the heading whilst also being readable for the user. 
+
 # Features 
 
 The Vincent Van Gogh website contains three main pages, which can be navagated too via a navigation bar that is fixed to the top of the page as the user scrolls. Each page contains a header with the navagation bar and a footer. The three main pages in this design are:
