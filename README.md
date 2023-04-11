@@ -44,7 +44,7 @@ The objective of this project was to design a website that is easy to use and th
 
 ### Colours
 
-The colour palette for this Vincent Van Gogh website was derived from the hero image. The hero image is a painting of Vincent Van Gogh with some of his iconic paitinings in the background. The main colours that were used where white, black and varying shades of blue. A colour gradient was created using [Coolors.](https://coolors.co/gradient-palette/0e3c45-7ed0df?number=7)
+The colour palette for this Vincent Van Gogh website was derived from the hero image. The hero image is a painting of Vincent Van Gogh with some of his iconic paintings in the background. The main colours that were used where white, black and varying shades of blue. A colour gradient was created using [Coolors.](https://coolors.co/gradient-palette/0e3c45-7ed0df?number=7)
 
 <img src="assets/images/readme-images/coolors.png">
 
@@ -204,8 +204,6 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 | Timeline did not span the width of events at different screen sizes| fixed| The width of the timeline needed to be changed at different screen sizes using media queries
 |Hero image distorted at different screen sizes| fixed| Resolved by using background-size: cover on the image element
 
-
-
 # Deployment 
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -218,12 +216,36 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7.github.io/Vincent-Van-Gogh/)
 
-
-
-
 # Credits
-Hero image
-https://supergreeks.eu/vincent-van-gogh-olllandia/ 
+
+### Images 
+
+* https://supergreeks.eu/vincent-van-gogh-olllandia/ 
+* https://www.vangoghmuseum.nl/en/collection/s0022V1962
+* https://www.vangoghmuseum.nl/en/collection/s0065V1962
+* https://www.vangoghmuseum.nl/en/collection/s0157V1962
+* https://www.vangoghmuseum.nl/en/collection/s0163V1962
+* https://www.vangoghmuseum.nl/en/collection/s0156V1962
+* https://www.vangoghmuseum.nl/en/collection/s0155V1962
+* https://www.vangoghmuseum.nl/en/collection/s0158V1962
+* https://www.vangoghmuseum.nl/en/collection/s0016V1962
+* https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889
+* https://www.vangoghmuseum.nl/en/collection/s0002V1962
+* https://www.vangoghmuseum.nl/en/collection/s0024V1962
+* https://www.vangoghmuseum.nl/en/collection/s0029V1962
+* https://www.vangoghmuseum.nl/en/collection/s0030V1962
+* https://www.vangoghmuseum.nl/en/collection/s0149V1962
+* https://www.vangoghmuseum.nl/en/collection/s0034V1962
+* https://www.vangoghmuseum.nl/en/collection/s0064V1962
+* https://www.vangoghmuseum.nl/en/collection/s0031V1962
+* https://www.vangoghmuseum.nl/en/collection/s0180V1962
+* https://www.vangoghmuseum.nl/en/collection/s0144V1962
+* https://www.vangoghmuseum.nl/en/collection/s0184V1962
+* https://www.vangoghmuseum.nl/en/collection/s0050V1962
+* https://www.vangoghmuseum.nl/en/collection/s0004V1962v
+* https://www.vangoghmuseum.nl/en/collection/s0177V1962
+* https://www.vangoghmuseum.nl/en/collection/s0188V1962
+* https://www.vangoghmuseum.nl/en/collection/s0176V1962
 
 resources
 
