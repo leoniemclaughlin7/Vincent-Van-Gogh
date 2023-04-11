@@ -8,6 +8,43 @@ A live version of the project can be accessed here: [Vincent Van Gogh](https://l
 
 # Table Of Contents
 
+* [User Experience Design](#user-experience-design)
+    * [User Demographic](#user-demographic)
+    * [User Stories](#user-stories)
+    * [Wireframes](#wireframes)
+        * [Desktop](#desktop)
+        * [Mobile](#mobile)
+    * [Design](#design)
+        * [Colours](#colours)
+        * [Typography](#typography)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Header and Navigation Bar](#header-and-navigation-bar)
+        * [About Section](#about-section)
+            * [Artist Timeline](#artist-timeline)
+            * [Video](#video)
+        * [Gallery](#gallery)
+        * [Sign Up](#sign-up)
+        * [Form Submission Page](#form-submission-page)
+    * [Features Left to Implement](#features-left-to-implement)
+* [Testing](#testing)
+    * [Navigation Bar](#navigation-bar)
+    * [Hero Image](#hero-image)
+    * [About Section](#about-section-1)
+    * [Gallery](#gallery-1)
+    * [Sign Up](#sign-up-1)
+    * [Validator Testing](#validator-testing)
+        * [HTML](#html)
+        * [CSS](#css)
+        * [Lighthouse Testing](#lighthouse-testing)
+* [known Bugs](#known-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+    * [Images](#images)
+    * [Video](#video-1)
+    * [Code](#code)
+* [Acknowledgements](#acknowledgements)
+
 # User Experience Design
 
 ## User Demographic
@@ -247,17 +284,22 @@ The live link can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7
 * https://www.vangoghmuseum.nl/en/collection/s0188V1962
 * https://www.vangoghmuseum.nl/en/collection/s0176V1962
 
-resources
+### Video 
 
-help with flexbox
-https://www.youtube.com/watch?v=Q1d-1FzdXEE 
+* https://www.youtube.com/watch?v=3q5fuVFWe0Q
 
-inspiration for timeline
-https://stackoverflow.com/questions/34048063/how-to-create-simple-horizontal-timeline 
+### Code
 
-youtube video
-https://www.youtube.com/watch?v=3q5fuVFWe0Q
+The initial code for the timeline came from Stackoverflow, however this was developed and changed to fit this website.
+* https://stackoverflow.com/questions/34048063/how-to-create-simple-horizontal-timeline 
 
-van gogh images
-https://www.vangoghmuseum.nl/en/art-and-stories/art/vincent-van-gogh#paintings
+W3Schools was helpfull for code queries as well as general syntax queries.
+* https://www.w3schools.com/ 
+
+# Acknowledgements 
+
+I would like to thank my mentor Lauren-Nicole Popich, the Code Institute team and the Slack community for their support throughout this project. 
+
+
+
 
