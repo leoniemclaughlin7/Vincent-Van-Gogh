@@ -192,7 +192,7 @@ No errors were returned when the site was passed through the official [Jigsaw va
 All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
 
 |Bug  | Status | Solution  | 
-|--|--|--|--|
+|--|--|--|
 |About section could not be navigated to from other pages | fixed|Needed to change the file path on other pages to navigate to the home page then to the about section
 |Timeline was shown above the sticky navigation bar| fixed| Used Z index to overlay the navigation bar over the timeline
 |Video was shown over the navigation bar| fixed| Used z index to overlay the navigation bar over the video 
