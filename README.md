@@ -15,7 +15,7 @@ A live version of the project can be accessed here: [Vincent Van Gogh](https://l
 This website is intended for:
 
 * Users that have a keen intrest in Vincent Van Gogh.
-* Users that would like to find out more information on Vincent Van Gogh.
+* Users that would like to find out more information about Vincent Van Gogh.
 * Users that wish to become part of a community who appreciate the work of Vincent Van Gogh. 
 
 ## User Stories
@@ -50,7 +50,7 @@ The colour palette for this Vincent Van Gogh website was derived from the hero i
 
 ### Typography 
 
-The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the astetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the heading whilst also being readable for the user. 
+The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the astetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the heading whilst also being readable for the user. Both fonts also have a second font of Sans-Serif set incase the chosen fonts do not work on the users browser.  
 
 # Features 
 
@@ -186,6 +186,24 @@ No errors were returned when the site was passed through the official [Jigsaw va
 ### Lighthouse Testing
 
 <img src="assets/images/readme-images/lighthouse.png">
+
+# known Bugs
+
+All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
+
+|Bug  | Status | Solution  | 
+|--|--|--|--|
+|About section could not be navigated to from other pages | fixed|Needed to change the file path on other pages to navigate to the home page then to the about section
+|Timeline was shown above the sticky navigation bar| fixed| Used Z index to overlay the navigation bar over the timeline
+|Video was shown over the navigation bar| fixed| Used z index to overlay the navigation bar over the video 
+|Position of the navigation menu when screen size was reduced to 588px and below| fixed |Resolved with the used of flexbox and the gap attribute|
+|Video could not have a width of 70% attributed in the video element| fixed| Targeted the video directly within the CSS file and set the width there
+|Events of the timeline would not sit on the timeline when the screen size was surpassed| fixed| Resolved by using grid to position the events on the timeline
+|Paintings in the gallery would not enlarge by 10% due to the original images being different resolutions| fixed| Used transform and sale to achieve the desired effect
+|About section did not fit to screen on 320px | fixed| The content in the about section was to big for the container at this resolution and was resolved by changing the font size
+| Timeline did not span the width of events at different screen sizes| fixed| The width of the timeline needed to be changed at different screen sizes using media queries
+|Hero image distorted at different screen sizes| fixed| Resolved by using background-size: cover on the image element
+
 
 
 # Deployment 
