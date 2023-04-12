@@ -87,7 +87,7 @@ a {
 /* About section */
 
 
-#about-position{
+#about-position {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -262,9 +262,10 @@ a {
   margin-bottom: 50px;
   z-index: 1;
 }
- video {
+
+video {
   width: 70vw;
- }
+}
 
 /* footer */
 
@@ -349,24 +350,27 @@ footer {
 #thank-you {
   margin: 0;
   height: 75vh;
-  display: grid;             
+  display: grid;
   place-items: center;
 }
 
-/* Media queries */ 
+/* Media queries */
 
 /* for screen size from 1440px wide and down */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1442px) {
 
   .timeline::before {
     width: 450%;
-
   }
 
   .event::before {
     height: 65px;
   }
 
+  #sign-up-box {
+    font-size: 100%;
+    width: 60%;
+  }
 }
 
 /* for screen size from 1024px wide and down */
@@ -374,7 +378,6 @@ footer {
 
   .timeline::before {
     width: 625%;
-
   }
 
 }
@@ -401,18 +404,18 @@ footer {
     padding-top: 100px;
   }
 
-  body{
+  body {
     padding-top: 140px;
   }
 }
 
 /* for screen size from 589px wide and down */
 @media screen and (max-width: 589px) {
- 
+
   #nav-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
   }
 
   #form {
@@ -426,6 +429,12 @@ footer {
   body {
     padding-top: 220px;
   }
+
+  #sign-up-box {
+    font-size: 100%;
+    width: 100%;
+    height: 480px;
+  }
 }
 
 /* for screen size from 487px wide and down */
@@ -435,52 +444,20 @@ footer {
   }
 }
 
-/* for screen size from 1442px wide and down */
-@media screen and (max-width: 1442px) {
-  #sign-up-box {
-    font-size: 100%;
-    width: 60%;
-  }
-
-}
-
 /* for screen size from 878px wide and down */
 @media screen and (max-width: 878px) {
   #sign-up-box {
     font-size: 100%;
-    width: 60%;
+    width: 100%;
     padding-top: 10px;
-    height: 470px;
-  }
-
-}
-
-/* for screen size from 714px wide and down */
-@media screen and (max-width: 714px) {
-  #sign-up-box {
-    font-size: 100%;
-    width: 70%;
-    padding-top: 10px;
-    height: 480px;
   }
 }
-
-/* for screen size from 560px wide and down */
-@media screen and (max-width: 560px) {
-  #sign-up-box {
-    font-size: 100%;
-    width: 90%;
-  }
-  
-}
-
 
 /* When the width is between 320px and 400px */
 @media screen and (max-width: 450px) and (min-width: 320px) {
   #logo {
     font-size: 250%;
     padding: 0 0 20px 0;
-
   }
 
   body {
@@ -492,23 +469,20 @@ footer {
     height: 250px;
   }
 
-  
-.about-box {
-  font-size: 100%;
-}
 
-.timeline::before {
-  
-  width: 2200%;
- 
-}
+  .about-box {
+    font-size: 100%;
+  }
 
-#sign-up-box {
-  font-size: 75%;
-  width: 100%;
-  height: 450px;
-}
+  .timeline::before {
+    width: 2200%;
+  }
 
+  #sign-up-box {
+    font-size: 75%;
+    width: 100%;
+    height: 450px;
+  }
 }
 
 /* for screen size from 400px wide and down */
@@ -516,5 +490,4 @@ footer {
   body {
     padding-top: 270px;
   }
-  
 }
