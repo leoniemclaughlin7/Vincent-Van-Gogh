@@ -161,7 +161,7 @@ a {
   margin-left: -3px;
   width: 3px;
   background: #0E3C45;
-  height: 55px;
+  height: 60px;
 }
 
 .event.up::before {
@@ -356,9 +356,8 @@ footer {
 
 /* Media queries */
 
-/* for screen size from 1440px wide and down */
+/* for screen size from 1442px wide and down */
 @media screen and (max-width: 1442px) {
-
   .timeline::before {
     width: 450%;
   }
@@ -375,16 +374,13 @@ footer {
 
 /* for screen size from 1024px wide and down */
 @media screen and (max-width: 1024px) {
-
   .timeline::before {
     width: 625%;
   }
-
 }
 
 /* for screen size from 910px wide and down */
 @media screen and (max-width: 910px) {
-
   #nav-menu {
     display: flex;
     justify-content: flex-start;
@@ -407,11 +403,15 @@ footer {
   body {
     padding-top: 140px;
   }
+
+  #about-position {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* for screen size from 589px wide and down */
 @media screen and (max-width: 589px) {
-
   #nav-menu {
     display: flex;
     flex-direction: column;
@@ -467,11 +467,6 @@ footer {
   .paintings img {
     width: 250px;
     height: 250px;
-  }
-
-
-  .about-box {
-    font-size: 100%;
   }
 
   .timeline::before {
