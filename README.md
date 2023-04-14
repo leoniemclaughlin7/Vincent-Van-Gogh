@@ -257,48 +257,48 @@ The live link can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7
 
 ### Images 
 
-* https://supergreeks.eu/vincent-van-gogh-olllandia/ 
-* https://www.vangoghmuseum.nl/en/collection/s0022V1962
-* https://www.vangoghmuseum.nl/en/collection/s0065V1962
-* https://www.vangoghmuseum.nl/en/collection/s0157V1962
-* https://www.vangoghmuseum.nl/en/collection/s0163V1962
-* https://www.vangoghmuseum.nl/en/collection/s0156V1962
-* https://www.vangoghmuseum.nl/en/collection/s0155V1962
-* https://www.vangoghmuseum.nl/en/collection/s0158V1962
-* https://www.vangoghmuseum.nl/en/collection/s0016V1962
-* https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889
-* https://www.vangoghmuseum.nl/en/collection/s0002V1962
-* https://www.vangoghmuseum.nl/en/collection/s0024V1962
-* https://www.vangoghmuseum.nl/en/collection/s0029V1962
-* https://www.vangoghmuseum.nl/en/collection/s0030V1962
-* https://www.vangoghmuseum.nl/en/collection/s0149V1962
-* https://www.vangoghmuseum.nl/en/collection/s0034V1962
-* https://www.vangoghmuseum.nl/en/collection/s0064V1962
-* https://www.vangoghmuseum.nl/en/collection/s0031V1962
-* https://www.vangoghmuseum.nl/en/collection/s0180V1962
-* https://www.vangoghmuseum.nl/en/collection/s0144V1962
-* https://www.vangoghmuseum.nl/en/collection/s0184V1962
-* https://www.vangoghmuseum.nl/en/collection/s0050V1962
-* https://www.vangoghmuseum.nl/en/collection/s0004V1962v
-* https://www.vangoghmuseum.nl/en/collection/s0177V1962
-* https://www.vangoghmuseum.nl/en/collection/s0188V1962
-* https://www.vangoghmuseum.nl/en/collection/s0176V1962
+* [Hero image](https://supergreeks.eu/vincent-van-gogh-olllandia/) 
+* [Self portrait 1](https://www.vangoghmuseum.nl/en/collection/s0022V1962)
+* [Self portrait 2](https://www.vangoghmuseum.nl/en/collection/s0065V1962)
+* [Self portrait 3](https://www.vangoghmuseum.nl/en/collection/s0157V1962)
+* [Self portrait 4](https://www.vangoghmuseum.nl/en/collection/s0163V1962)
+* [Self portrait 5](https://www.vangoghmuseum.nl/en/collection/s0156V1962)
+* [Self portrait 6](https://www.vangoghmuseum.nl/en/collection/s0155V1962)
+* [Self portrait 7](https://www.vangoghmuseum.nl/en/collection/s0158V1962)
+* [Self portrait 8](https://www.vangoghmuseum.nl/en/collection/s0016V1962)
+* [Landscape 1](https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889)
+* [Landscape 2](https://www.vangoghmuseum.nl/en/collection/s0002V1962)
+* [Landscape 3](https://www.vangoghmuseum.nl/en/collection/s0024V1962)
+* [Landscape 4](https://www.vangoghmuseum.nl/en/collection/s0029V1962)
+* [Landscape 5](https://www.vangoghmuseum.nl/en/collection/s0030V1962)
+* [Landscape 6](https://www.vangoghmuseum.nl/en/collection/s0149V1962)
+* [Landscape 7](https://www.vangoghmuseum.nl/en/collection/s0034V1962)
+* [Landscape 8](https://www.vangoghmuseum.nl/en/collection/s0064V1962)
+* [Flowers 1](https://www.vangoghmuseum.nl/en/collection/s0031V1962)
+* [Flowers 2](https://www.vangoghmuseum.nl/en/collection/s0180V1962)
+* [Flowers 3](https://www.vangoghmuseum.nl/en/collection/s0144V1962)
+* [Flowers 4](https://www.vangoghmuseum.nl/en/collection/s0184V1962)
+* [Flowers 5](https://www.vangoghmuseum.nl/en/collection/s0050V1962)
+* [Flowers 6](https://www.vangoghmuseum.nl/en/collection/s0004V1962v)
+* [Flowers 7](https://www.vangoghmuseum.nl/en/collection/s0177V1962)
+* [Flowers 8](https://www.vangoghmuseum.nl/en/collection/s0188V1962)
+* [Form Background](https://www.vangoghmuseum.nl/en/collection/s0176V1962)
 
 ### Video 
 
-* https://www.youtube.com/watch?v=3q5fuVFWe0Q
+* [Video featured on home page](https://www.youtube.com/watch?v=3q5fuVFWe0Q)
 
 ### Code
 
 The initial code for the timeline came from Stackoverflow, however this was developed and changed to fit this website.
-* https://stackoverflow.com/questions/34048063/how-to-create-simple-horizontal-timeline 
+* [Stackoverflow-timeline](https://stackoverflow.com/questions/34048063/how-to-create-simple-horizontal-timeline) 
 
 W3Schools was helpfull for code queries as well as general syntax queries.
-* https://www.w3schools.com/ 
+* [W3Schools](https://www.w3schools.com/) 
 
 # Acknowledgements 
 
-I would like to thank my mentor Lauren-Nicole Popich, the Code Institute team and the Slack community for their support throughout this project. 
+I would like to thank my mentor Lauren-Nicole Popich, the Code Institute team and the Slack community.  
 
 
 
