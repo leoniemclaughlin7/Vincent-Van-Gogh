@@ -437,13 +437,6 @@ footer {
   }
 }
 
-/* for screen size from 487px wide and down */
-@media screen and (max-width: 487px) {
-  body {
-    padding-top: 300px;
-  }
-}
-
 /* for screen size from 878px wide and down */
 @media screen and (max-width: 878px) {
   #sign-up-box {
@@ -455,11 +448,6 @@ footer {
 
 /* When the width is between 320px and 400px */
 @media screen and (max-width: 450px) and (min-width: 320px) {
-  #logo {
-    font-size: 250%;
-    padding: 0 0 20px 0;
-  }
-
   body {
     padding-top: 200px;
   }
@@ -480,8 +468,8 @@ footer {
   }
 }
 
-/* for screen size from 400px wide and down */
-@media screen and (max-width: 400px) {
+/* for screen size from 487px wide and down */
+@media screen and (max-width: 487px) {
   body {
     padding-top: 270px;
   }
