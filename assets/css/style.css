@@ -386,6 +386,13 @@ footer {
   }
 }
 
+/* for screen size from 1310px wide and down */
+@media screen and (max-width: 1310px) {
+  .timeline::before {
+    width: 800%;
+  }
+}
+
 /* for screen size from 910px wide and down */
 @media screen and (max-width: 910px) {
   #nav-menu {
@@ -400,7 +407,7 @@ footer {
   }
 
   .timeline::before {
-    width: 850%;
+    width: 1050%;
   }
 
   #form {
@@ -478,6 +485,6 @@ footer {
 /* for screen size from 487px wide and down */
 @media screen and (max-width: 487px) {
   body {
-    padding-top: 270px;
+    padding-top: 300px;
   }
 }
