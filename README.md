@@ -4,7 +4,7 @@ This website was developed for people who want to find out more about Vincent Va
 
 A live version of the project can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7.github.io/Vincent-Van-Gogh/)
 
-<img src="assets/images/readme-images/van-gogh-mockups.png">
+<img src="assets/images/readme-images/mock-up.png">
 
 # Table Of Contents
 
