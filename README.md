@@ -65,15 +65,19 @@ As a User of this website:
 
 ## Wireframes
 
-Wireframes were produced for the home screen on desktop and mobile. Some aspects of the wireframe has canged as the website was being produced. 
+Wireframes were produced for the home, gallery and sign up pages on desktop and mobile. Some aspects of the wireframes have canged as the website was being produced. 
 
 ### Desktop 
 
 <img src="assets/images/readme-images/wireframe1.png">
+<img src="assets/images/readme-images/wireframe3.png">
+<img src="assets/images/readme-images/wireframe5.png">
 
 ### Mobile 
 
 <img src="assets/images/readme-images/wireframe2.png">
+<img src="assets/images/readme-images/wireframe4.png">
+<img src="assets/images/readme-images/wireframe6.png">
 
 ## Design
 
@@ -300,6 +304,6 @@ W3Schools was helpfull for code queries as well as general syntax queries.
 
 I would like to thank my mentor Lauren-Nicole Popich, the Code Institute team and the Slack community.  
 
-
+[Back to top](#vincent-van-gogh)
 
 
