@@ -147,7 +147,7 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 * When the user submits the sign up form they are redirected to a thank you page. 
 * This gives an indication to the user that their form has been recieved and that they have signed up for the newsletter.
 
-<img src="assets/images/readme-images/form-submission.png">
+<img src="assets/images/readme-images/form-thankyou.png">
 
 ## Features Left to Implement 
 
