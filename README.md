@@ -1,6 +1,6 @@
 # Vincent Van Gogh
 
-This website was developed for people who want to find out more about Vincent Van Gogh and people who admire and appreciate his work. Users of this website can find information about Vincent Van Gogh's life in the about section, an artist timeline details significant events in Vincent Van Gogh's life and a video is available which contains more details about the artist and his life. In the gallery, users can browse some of the paintings by Vincent Van Gogh and users may opt in to sign up to a newletter to have more information sent to them about the artist Vincent Van Gogh. This website was designed to be a hub for a community of people who have a shared intrest in Vincent Van Gogh. 
+This website was developed for people who want to find out more about Vincent Van Gogh and people who admire and appreciate his work. Users of this website can find information about Vincent Van Gogh's life in the about section, an artist timeline details significant events in Vincent Van Gogh's life and a video is available which contains more details about the artist and his life. In the gallery, users can browse some of the paintings by Vincent Van Gogh and users may opt in to sign up to a newsletter to have more information sent to them about the artist Vincent Van Gogh. This website was designed to be a hub for a community of people who have a shared interest in Vincent Van Gogh. 
 
 A live version of the project can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7.github.io/Vincent-Van-Gogh/)
 
@@ -51,7 +51,7 @@ A live version of the project can be accessed here: [Vincent Van Gogh](https://l
 
 This website is intended for:
 
-* Users that have a keen intrest in Vincent Van Gogh.
+* Users that have a keen interest in Vincent Van Gogh.
 * Users that would like to find out more information about Vincent Van Gogh.
 * Users that wish to become part of a community who appreciate the work of Vincent Van Gogh. 
 
@@ -60,12 +60,12 @@ This website is intended for:
 As a User of this website:
 
 * I want to find information about Vincent Van Gogh.
-* I want to admire some of the work carried out by vincent Van Gogh. 
+* I want to admire some of the work carried out by Vincent Van Gogh. 
 * I want to sign up to a newsletter to obtain more information about Vincent Van Gogh. 
 
 ## Wireframes
 
-Wireframes were produced for the home, gallery and sign up pages on desktop and mobile. Some aspects of the wireframes have canged as the website was being produced. 
+Wireframes were produced for the home, gallery and sign up pages on desktop and mobile. Some aspects of the wireframes have changed as the website was being produced. 
 
 ### Desktop 
 
@@ -91,11 +91,11 @@ The colour palette for this Vincent Van Gogh website was derived from the hero i
 
 ### Typography 
 
-The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the astetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the heading whilst also being readable for the user. Both fonts also have a second font of Sans-Serif set incase the chosen fonts do not work on the users browser.  
+The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the aesthetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the heading whilst also being readable for the user. Both fonts also have a second font of Sans-Serif set in case the chosen fonts do not work on the users browser.  
 
 # Features 
 
-The Vincent Van Gogh website contains three main pages, which can be navagated too via a navigation bar that is fixed to the top of the page as the user scrolls. Each page contains a header with the navagation bar and a footer. The three main pages in this design are:
+The Vincent Van Gogh website contains three main pages, which can be navigated too via a navigation bar that is fixed to the top of the page as the user scrolls. Each page contains a header with the navigation bar and a footer. The three main pages in this design are:
 
 * Home/about section.
 * Gallery.
@@ -120,7 +120,7 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 #### Artist Timeline
 
-* The artist timeline is a responsive scrollable horizontal feature that gives the user more information releating to Vincent Van Gogh's life and events that happens in his life.
+* The artist timeline is a responsive scrollable horizontal feature that gives the user more information relating to Vincent Van Gogh's life and events that happens in his life.
 
 <img src="assets/images/readme-images/artist-timeline.png">
 
@@ -133,8 +133,8 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 
 ### Gallery 
 
-* The gallery is an important aspect of this website. It is within this section that some of Vincents Van Gogh's paintings are displayed to the user.
-* There is three distinct categories of paintings available to view, self-portraits, landscapes and flowers. When hovered over the paitings enlarge slightly and a drop shadow can be seen. 
+* The gallery is an important aspect of this website. It is within this section that some of Vincent Van Gogh's paintings are displayed to the user.
+* There is three distinct categories of paintings available to view, self-portraits, landscapes and flowers. When hovered over the paintings enlarge slightly and a drop shadow can be seen. 
 
 <img src="assets/images/readme-images/gallery.png">
 
@@ -142,21 +142,21 @@ The Vincent Van Gogh website contains three main pages, which can be navagated t
 ### Sign Up 
 
 * The sign up page allows users to sign up to a newsletter that will supply them with more information regarding Vincent Van Gogh. 
-* The sign up page is comprised of three input feilds and a checkbox, it contains form validation, in that either of the text feilds must not be empty. The email feild must contain an email and the checkbox must be checked before the form is submitted. 
+* The sign up page is comprised of three input fields and a checkbox, it contains form validation, in that either of the text fields must not be empty. The email field must contain an email and the checkbox must be checked before the form is submitted. 
 
 <img src="assets/images/readme-images/sign-up.png">
 
 ### Form Submission Page
 
 * When the user submits the sign up form they are redirected to a thank you page. 
-* This gives an indication to the user that their form has been recieved and that they have signed up for the newsletter.
+* This gives an indication to the user that their form has been received and that they have signed up for the newsletter.
 
 <img src="assets/images/readme-images/form-thankyou.png">
 
 ## Features Left to Implement 
 
 * A user profile could be implemented to allow the user to sign in to the website.
-* It would be nice to add a feature that allows the user to favorite a painting.
+* It would be nice to add a feature that allows the user to favourite a painting.
 * The addition of adding and viewing reviews of the paintings would be a nice feature to add.
 * More of the work carried out by Vincent van Gogh could be added to the gallery. 
 
@@ -200,7 +200,7 @@ Testing of the functionality of the website can be seen in the following tables.
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 |Gallery hover effect |When a painting is hovered over with the mouse it should enlarge and a drop shadow should be seen|Hovered over paintings | pass
-|Gallery is responsive |When the screen size is changed the paintings in the gallery  center and move to fit screen size|Resized browser and checked the gallery at different screen resolutions | pass
+|Gallery is responsive |When the screen size is changed the paintings in the gallery centre and move to fit screen size|Resized browser and checked the gallery at different screen resolutions | pass
 
 ### Sign Up 
 
@@ -262,14 +262,14 @@ The live link can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7
 ### Images 
 
 * [Hero image](https://supergreeks.eu/vincent-van-gogh-olllandia/) 
-* [Self portrait 1](https://www.vangoghmuseum.nl/en/collection/s0022V1962)
-* [Self portrait 2](https://www.vangoghmuseum.nl/en/collection/s0065V1962)
-* [Self portrait 3](https://www.vangoghmuseum.nl/en/collection/s0157V1962)
-* [Self portrait 4](https://www.vangoghmuseum.nl/en/collection/s0163V1962)
-* [Self portrait 5](https://www.vangoghmuseum.nl/en/collection/s0156V1962)
-* [Self portrait 6](https://www.vangoghmuseum.nl/en/collection/s0155V1962)
-* [Self portrait 7](https://www.vangoghmuseum.nl/en/collection/s0158V1962)
-* [Self portrait 8](https://www.vangoghmuseum.nl/en/collection/s0016V1962)
+* [Self-portrait 1](https://www.vangoghmuseum.nl/en/collection/s0022V1962)
+* [Self-portrait 2](https://www.vangoghmuseum.nl/en/collection/s0065V1962)
+* [Self-portrait 3](https://www.vangoghmuseum.nl/en/collection/s0157V1962)
+* [Self-portrait 4](https://www.vangoghmuseum.nl/en/collection/s0163V1962)
+* [Self-portrait 5](https://www.vangoghmuseum.nl/en/collection/s0156V1962)
+* [Self-portrait 6](https://www.vangoghmuseum.nl/en/collection/s0155V1962)
+* [Self-portrait 7](https://www.vangoghmuseum.nl/en/collection/s0158V1962)
+* [Self-portrait 8](https://www.vangoghmuseum.nl/en/collection/s0016V1962)
 * [Landscape 1](https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889)
 * [Landscape 2](https://www.vangoghmuseum.nl/en/collection/s0002V1962)
 * [Landscape 3](https://www.vangoghmuseum.nl/en/collection/s0024V1962)
@@ -297,7 +297,7 @@ The live link can be accessed here: [Vincent Van Gogh](https://leoniemclaughlin7
 The initial code for the timeline came from Stackoverflow, however this was developed and changed to fit this website.
 * [Stackoverflow-timeline](https://stackoverflow.com/questions/34048063/how-to-create-simple-horizontal-timeline) 
 
-W3Schools was helpfull for code queries as well as general syntax queries.
+W3Schools was helpful for code queries as well as general syntax queries.
 * [W3Schools](https://www.w3schools.com/) 
 
 # Acknowledgements 
