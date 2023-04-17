@@ -91,7 +91,7 @@ The colour palette for this Vincent Van Gogh website was derived from the hero i
 
 ### Typography 
 
-The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the aesthetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the heading whilst also being readable for the user. Both fonts also have a second font of Sans-Serif set in case the chosen fonts do not work on the users browser.  
+The fonts for the site where imported from Google fonts. For the headings [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shado) was used. This font was chosen as it fit the aesthetic of the site and the artist this site is based upon. For the main content [Kanit](https://fonts.google.com/specimen/Kanit?query=kanit) was used. This font was chosen as it complements the headings whilst also being readable for the user. Both fonts also have a second font of Sans-Serif set in case the chosen fonts do not work on the users browser.  
 
 # Features 
 
@@ -106,7 +106,7 @@ The Vincent Van Gogh website contains three main pages, which can be navigated t
 ### Header and Navigation Bar 
 
 * Featured on all three pages, the header contains a clickable logo, that will return the user to the home page and a responsive navigation bar. 
-* The navigation bar allows the user to move around the website and includes links to Home, About, Gallery and Sign up pages. A border can be seen on the page that the user is currently on. 
+* The navigation bar allows the user to move around the website and includes links to Home, About, Gallery and Sign up pages. A border can be seen when the user hovers over a navigation link. 
 * The header is identical across all three pages which enhances usability and consistency.
 
 <img src="assets/images/readme-images/header.png">
@@ -120,13 +120,13 @@ The Vincent Van Gogh website contains three main pages, which can be navigated t
 
 #### Artist Timeline
 
-* The artist timeline is a responsive scrollable horizontal feature that gives the user more information relating to Vincent Van Gogh's life and events that happens in his life.
+* The artist timeline is a responsive scrollable horizontal feature that gives the user more information relating to Vincent Van Gogh's life and events that happened in his life.
 
 <img src="assets/images/readme-images/artist-timeline.png">
 
 #### Video
 
-* The final section of the about section includes a video. This video gives the user more detail about Vincent Van Gogh, his life and work. 
+* The final section of the about section includes a video. This video gives the user more information about Vincent Van Gogh, his life and work. 
 * This video will not autoplay, instead it is up to the user to decide to play the video. It is appropriate to the website and is informative for users. 
 
 <img src="assets/images/readme-images/video.png">
@@ -189,10 +189,10 @@ Testing of the functionality of the website can be seen in the following tables.
 |Feature | Expect | Action | Result |
 |--|--|--|--|
 |About boxes responsive |When the screen size is changed the about boxes fit to screen size|Resized browser and checked about boxes at different screen resolutions | pass
-|About boxes responsive at 449px and below |When the screen size is changed  to 449px and below the about boxes font size changes to 100%|Resized browser to 449px and checked the font size of about boxes| pass
+|About boxes responsive at 909px and below |When the screen size is changed  to 909px and below the about boxes will stack|Resized browser to 909px and checked the responsiveness of about boxes| pass
 |Timeline |The timeline is scrollable |Scroll to end of the timeline| pass
 |Timeline is responsive|The timeline is responsive on all screen sizes |Resize browser and checked timeline is responsive of different screen sizes| pass
-|Video |The video does not auto play |Refreshed browser and confirm that the video does not play without action for the user| pass
+|Video |The video does not auto play |Refreshed browser and confirm that the video does not play without action from the user| pass
 |Video is responsive |The video will be 70% of the page on all screen sizes |Resized the browser and checked the video is responsive on all screen sizes| pass
 
 ### Gallery 
@@ -241,7 +241,7 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 |Video could not have a width of 70% attributed in the video element| fixed| Targeted the video directly within the CSS file and set the width there
 |Events of the timeline would not sit on the timeline when the screen size was surpassed| fixed| Resolved by using grid to position the events on the timeline
 |Paintings in the gallery would not enlarge by 10% due to the original images being different resolutions| fixed| Used transform and sale to achieve the desired effect
-|About section did not fit to screen on 320px | fixed| The content in the about section was to big for the container at this resolution and was resolved by changing the font size
+|About section did not fit to screen on 320px | fixed| The content in the about section was to big for the container at this resolution and was resolved by stacking the boxes at 909px and under
 | Timeline did not span the width of events at different screen sizes| fixed| The width of the timeline needed to be changed at different screen sizes using media queries
 |Hero image distorted at different screen sizes| fixed| Resolved by using background-size: cover on the image element
 
