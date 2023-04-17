@@ -191,7 +191,7 @@ Testing of the functionality of the website can be seen in the following tables.
 |About boxes responsive |When the screen size is changed the about boxes fit to screen size|Resized browser and checked about boxes at different screen resolutions | pass
 |About boxes responsive at 909px and below |When the screen size is changed  to 909px and below the about boxes will stack|Resized browser to 909px and checked the responsiveness of about boxes| pass
 |Timeline |The timeline is scrollable |Scroll to end of the timeline| pass
-|Timeline is responsive|The timeline is responsive on all screen sizes |Resize browser and checked timeline is responsive of different screen sizes| pass
+|Timeline is responsive|The timeline is responsive on all screen sizes |Resize browser and checked timeline is responsive on different screen sizes| pass
 |Video |The video does not auto play |Refreshed browser and confirm that the video does not play without action from the user| pass
 |Video is responsive |The video will be 70% of the page on all screen sizes |Resized the browser and checked the video is responsive on all screen sizes| pass
 
@@ -240,7 +240,7 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 |Position of the navigation menu when screen size was reduced to 588px and below| fixed |Resolved with the used of flexbox and the gap attribute|
 |Video could not have a width of 70% attributed in the video element| fixed| Targeted the video directly within the CSS file and set the width there
 |Events of the timeline would not sit on the timeline when the screen size was surpassed| fixed| Resolved by using grid to position the events on the timeline
-|Paintings in the gallery would not enlarge by 10% due to the original images being different resolutions| fixed| Used transform and sale to achieve the desired effect
+|Paintings in the gallery would not enlarge by 10% due to the original images being different resolutions| fixed| Used transform and scale to achieve the desired effect
 |About section did not fit to screen on 320px | fixed| The content in the about section was to big for the container at this resolution and was resolved by stacking the boxes at 909px and under
 | Timeline did not span the width of events at different screen sizes| fixed| The width of the timeline needed to be changed at different screen sizes using media queries
 |Hero image distorted at different screen sizes| fixed| Resolved by using background-size: cover on the image element
